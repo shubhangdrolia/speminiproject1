@@ -50,10 +50,27 @@ public class calculator {
         root = Math.sqrt(x);
         return root;
     }
+
+    public double power(double x, double y)
+    {
+        double c;
+        c = Math.pow(x,y);
+        return c;
+    }
+
+
+    public double logarithm(double x)
+    {
+        double root;
+        root = Math.log(x);
+        return root;
+    }
+
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         double a, b, c, selection;
         double d;
+        System.out.println("Please enter 0 for power");
         System.out.println("Please enter 1 for addition");
         System.out.println("Please enter 2 for subtraction");
         System.out.println("Please enter 3 for multiplication");
@@ -61,6 +78,7 @@ public class calculator {
         System.out.println("Please enter 5 for factorial");
         System.out.println("Please enter 6 for square");
         System.out.println("Please enter 7 for square root");
+        System.out.println("Please enter 8 for Log");
         selection = scan.nextInt();
         calculator op = new calculator();
         if (selection <= 4) {
@@ -74,8 +92,11 @@ public class calculator {
                 System.out.println("Enter the input");
                 selection = scan.nextInt();
             }
-
-            if (selection == 1) {
+            if (selection == 0) {
+                c = op.power(a, b);
+                System.out.println("The result for power is " + c);
+            }
+            else if (selection == 1) {
                 c = op.add(a, b);
                 System.out.println("The result for addition is " + c);
             } else if (selection == 2) {
@@ -89,7 +110,7 @@ public class calculator {
                 System.out.println("The result for division is " + c);
             }
         }
-        else if(selection > 4 && selection <=7)
+        else if(selection > 4 && selection <=8)
         {
             System.out.println("please enter any number");
             d = scan.nextInt();
@@ -111,6 +132,14 @@ public class calculator {
                 x = op.squareroot(d);
                 System.out.println("The result of square root is "+x);
             }
+
+            else if(selection == 8)
+            {
+                double x;
+                x = op.logarithm(d);
+                System.out.println("The result of logarithm is "+x);
+            }
+
         }
     }
 }
