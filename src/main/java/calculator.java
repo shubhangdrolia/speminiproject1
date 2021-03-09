@@ -70,6 +70,7 @@ public class calculator {
         Scanner scan = new Scanner(System.in);
         double a, b, c, selection;
         double d;
+        System.out.println("--------------------------Welcome---------------------------");
         System.out.println("Please enter 0 for power");
         System.out.println("Please enter 1 for addition");
         System.out.println("Please enter 2 for subtraction");
@@ -79,6 +80,7 @@ public class calculator {
         System.out.println("Please enter 6 for square");
         System.out.println("Please enter 7 for square root");
         System.out.println("Please enter 8 for Log");
+        System.out.println("Please enter 9 for Exit");
         selection = scan.nextInt();
         calculator op = new calculator();
         if (selection <= 4) {
@@ -140,6 +142,10 @@ public class calculator {
                 System.out.println("The result of logarithm is "+x);
             }
 
+        }
+        else if(selection == 9)
+        {
+            System.out.println("Thank you !!");
         }
     }
 }
