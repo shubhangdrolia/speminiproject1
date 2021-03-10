@@ -6,5 +6,10 @@
       docker_image:
         name: shubhang123/speminiproject1
         source: pull
+    - name: Create default containers
+      docker_container:
+        name: c1
+        image: shubhang123/speminiproject1
+        state: present
 
 
