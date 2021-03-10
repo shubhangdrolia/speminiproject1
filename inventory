@@ -1,4 +1,4 @@
-172.16.130.65 ansible_pass=12345 ansible_user=sachin
+172.16.130.65 ansible_user=sachin ansible_pass=12345
 
 
 
