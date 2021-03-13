@@ -1,0 +1,70 @@
+2021-03-13 10:32:37.174 [main] INFO  calculator - [SQ] - 6.0
+2021-03-13 10:32:37.179 [main] INFO  calculator - [RESULT - SQ ROOT] - 6.0
+2021-03-13 10:32:37.191 [main] INFO  calculator - [SQ] - 10.0
+2021-03-13 10:32:37.191 [main] INFO  calculator - [RESULT - SQ ROOT] - 10.0
+2021-03-13 10:32:37.192 [main] INFO  calculator - [SUM OF - 2.0 AND] 2.0
+2021-03-13 10:32:37.193 [main] INFO  calculator - [RESULT - sum] - 4.0
+2021-03-13 10:32:37.193 [main] INFO  calculator - [SUM OF - 4.0 AND] 6.0
+2021-03-13 10:32:37.193 [main] INFO  calculator - [RESULT - sum] - 10.0
+2021-03-13 10:32:37.193 [main] INFO  calculator - [LOGARITHM] - 1.0
+2021-03-13 10:32:37.194 [main] INFO  calculator - [RESULT - LOGARITHM] - 1.0
+2021-03-13 10:32:37.194 [main] INFO  calculator - [SQ ROOT] - 16.0
+2021-03-13 10:32:37.194 [main] INFO  calculator - [SQ ROOT] - 16.0
+2021-03-13 10:32:37.195 [main] INFO  calculator - [SQ ROOT] - 25.0
+2021-03-13 10:32:37.195 [main] INFO  calculator - [SQ ROOT] - 25.0
+2021-03-13 10:32:37.206 [main] INFO  calculator - [MULTIPLY OF - 6.0 AND] 2.0
+2021-03-13 10:32:37.206 [main] INFO  calculator - [RESULT - MULTIPLICATION] - 12.0
+2021-03-13 10:32:37.206 [main] INFO  calculator - [MULTIPLY OF - 9.0 AND] 6.0
+2021-03-13 10:32:37.207 [main] INFO  calculator - [RESULT - MULTIPLICATION] - 54.0
+2021-03-13 10:32:37.207 [main] INFO  calculator - [SQ ROOT] - 36.0
+2021-03-13 10:32:37.208 [main] INFO  calculator - [SQ ROOT] - 36.0
+2021-03-13 10:32:37.208 [main] INFO  calculator - [SQ ROOT] - 100.0
+2021-03-13 10:32:37.208 [main] INFO  calculator - [SQ ROOT] - 100.0
+2021-03-13 10:32:37.208 [main] INFO  calculator - [DIVISION OF - 12.0 AND] 2.0
+2021-03-13 10:32:37.208 [main] INFO  calculator - [RESULT - DIVISION] - 6.0
+2021-03-13 10:32:37.209 [main] INFO  calculator - [DIVISION OF - 12.0 AND] 6.0
+2021-03-13 10:32:37.209 [main] INFO  calculator - [RESULT - DIVISION] - 2.0
+2021-03-13 10:32:37.209 [main] INFO  calculator - [SUBTRACTION OF - 12.0 AND] 2.0
+2021-03-13 10:32:37.218 [main] INFO  calculator - [RESULT - SUBTRACTION] - 10.0
+2021-03-13 10:32:37.219 [main] INFO  calculator - [SUBTRACTION OF - 14.0 AND] 6.0
+2021-03-13 10:32:37.220 [main] INFO  calculator - [RESULT - SUBTRACTION] - 8.0
+2021-03-13 10:32:37.222 [main] INFO  calculator - [FACTORIAL] - 6.0
+2021-03-13 10:32:37.222 [main] INFO  calculator - [RESULT - FACTORIAL] - 720.0
+2021-03-13 10:32:37.223 [main] INFO  calculator - [FACTORIAL] - 7.0
+2021-03-13 10:32:37.224 [main] INFO  calculator - [RESULT - FACTORIAL] - 5040.0
+2021-03-13 10:32:37.225 [main] INFO  calculator - [SUM OF - 2.0 AND] 2.0
+2021-03-13 10:32:37.226 [main] INFO  calculator - [RESULT - sum] - 4.0
+2021-03-13 10:32:37.227 [main] INFO  calculator - [SUM OF - 4.0 AND] 6.0
+2021-03-13 10:32:37.228 [main] INFO  calculator - [RESULT - sum] - 10.0
+2021-03-13 10:32:37.229 [main] INFO  calculator - [LOGARITHM] - 6.0
+2021-03-13 10:32:37.234 [main] INFO  calculator - [RESULT - LOGARITHM] - 6.0
+2021-03-13 10:32:37.235 [main] INFO  calculator - [LOGARITHM] - 24.0
+2021-03-13 10:32:37.235 [main] INFO  calculator - [RESULT - LOGARITHM] - 24.0
+2021-03-13 10:32:37.236 [main] INFO  calculator - [SQ] - 12.0
+2021-03-13 10:32:37.236 [main] INFO  calculator - [RESULT - SQ ROOT] - 12.0
+2021-03-13 10:32:37.237 [main] INFO  calculator - [SQ] - 15.0
+2021-03-13 10:32:37.238 [main] INFO  calculator - [RESULT - SQ ROOT] - 15.0
+2021-03-13 10:32:37.242 [main] INFO  calculator - [DIVISION OF - 6.0 AND] 2.0
+2021-03-13 10:32:37.242 [main] INFO  calculator - [RESULT - DIVISION] - 3.0
+2021-03-13 10:32:37.243 [main] INFO  calculator - [DIVISION OF - 3.0 AND] 5.0
+2021-03-13 10:32:37.243 [main] INFO  calculator - [RESULT - DIVISION] - 0.6
+2021-03-13 10:32:37.244 [main] INFO  calculator - [SUBTRACTION OF - 6.0 AND] 2.0
+2021-03-13 10:32:37.245 [main] INFO  calculator - [RESULT - SUBTRACTION] - 4.0
+2021-03-13 10:32:37.246 [main] INFO  calculator - [SUBTRACTION OF - 9.0 AND] 6.0
+2021-03-13 10:32:37.250 [main] INFO  calculator - [RESULT - SUBTRACTION] - 3.0
+2021-03-13 10:32:37.256 [main] INFO  calculator - [MULTIPLY OF - 12.0 AND] 2.0
+2021-03-13 10:32:37.261 [main] INFO  calculator - [RESULT - MULTIPLICATION] - 24.0
+2021-03-13 10:32:37.262 [main] INFO  calculator - [MULTIPLY OF - 14.0 AND] 6.0
+2021-03-13 10:32:37.263 [main] INFO  calculator - [RESULT - MULTIPLICATION] - 84.0
+2021-03-13 10:32:37.267 [main] INFO  calculator - [POWER - 6.0 RAISED TO] 3.0
+2021-03-13 10:32:37.267 [main] INFO  calculator - [RESULT - POWER] - 216.0
+2021-03-13 10:32:37.267 [main] INFO  calculator - [POWER - 12.0 RAISED TO] 2.0
+2021-03-13 10:32:37.269 [main] INFO  calculator - [RESULT - POWER] - 144.0
+2021-03-13 10:32:37.288 [main] INFO  calculator - [DIVISION OF - 6.0 AND] 2.0
+2021-03-13 10:32:37.289 [main] INFO  calculator - [RESULT - DIVISION] - 3.0
+2021-03-13 10:32:37.289 [main] INFO  calculator - [DIVISION OF - 24.0 AND] 6.0
+2021-03-13 10:32:37.289 [main] INFO  calculator - [RESULT - DIVISION] - 4.0
+2021-03-13 10:32:37.291 [main] INFO  calculator - [FACTORIAL] - 6.0
+2021-03-13 10:32:37.291 [main] INFO  calculator - [RESULT - FACTORIAL] - 720.0
+2021-03-13 10:32:37.293 [main] INFO  calculator - [FACTORIAL] - 3.0
+2021-03-13 10:32:37.293 [main] INFO  calculator - [RESULT - FACTORIAL] - 6.0
