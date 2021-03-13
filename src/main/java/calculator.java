@@ -1,70 +1,92 @@
 import java.lang.Math;
 import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 public class calculator {
     public double add(double x, double y)
     {
+        logger.info("[SUM OF - " + x + " AND] " + y);
         double sum;
         sum = x + y;
+        logger.info("[RESULT - sum] - " + sum);
         return sum;
     }
 
     public double sub(double x, double y)
     {
+        logger.info("[SUBTRACTION OF - " + x + " AND] " + y);
         double sub;
         sub = x - y;
+        logger.info("[RESULT - SUBTRACTION] - " + sub);
         return sub;
     }
 
     public double mul(double x, double y)
     {
+        logger.info("[MULTIPLY OF - " + x + " AND] " + y);
         double mul;
         mul = x * y;
+        logger.info("[RESULT - MULTIPLICATION] - " + mul);
         return mul;
     }
 
     public double div(double x, double y)
     {
+        logger.info("[DIVISION OF - " + x + " AND] " + y);
         double div;
         div = x / y;
+        logger.info("[RESULT - DIVISION] - " + div);
         return div;
     }
 
     public double fact(double x)
     {
+        logger.info("[FACTORIAL] - " + x);
         double i, fact = 1;
         for(i = 1; i <= x; i++)
             fact = fact * i;
+        logger.info("[RESULT - FACTORIAL] - " + fact);
         return fact;
     }
 
     public double squ(double x)
     {
+        logger.info("[SQ] - " + x);
         double squ;
         squ = x * x;
+        logger.info("[RESULT - SQ ROOT] - " + x);
         return squ;
     }
 
     public double squareroot(double x)
     {
+        logger.info("[SQ ROOT] - " + x);
         double root;
         root = Math.sqrt(x);
+        logger.info("[SQ ROOT] - " + x);
         return root;
     }
 
     public double power(double x, double y)
     {
+        logger.info("[POWER - " + x + " RAISED TO] " + y);
         double c;
         c = Math.pow(x,y);
+        logger.info("[RESULT - POWER] - " + c);
         return c;
     }
 
 
     public double logarithm(double x)
     {
+        logger.info("[LOGARITHM] - " + x);
         double root;
         root = Math.log(x);
+        logger.info("[RESULT - LOGARITHM] - " + x);
         return root;
     }
+
+    private static final Logger logger = LogManager.getLogger(calculator.class);
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
