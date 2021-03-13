@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="18" failures="0" name="calculatorTest" time="0.668" errors="0" skipped="0">
+<testsuite tests="18" failures="0" name="calculatorTest" time="0.564" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -62,7 +62,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="calculatorTest" name="squFalsepositive" time="0.662"/>
+  <testcase classname="calculatorTest" name="squFalsepositive" time="0.557"/>
   <testcase classname="calculatorTest" name="addTruepositive" time="0"/>
   <testcase classname="calculatorTest" name="logarithmTruepositive" time="0"/>
   <testcase classname="calculatorTest" name="squarerootTruepositive" time="0"/>
@@ -70,14 +70,14 @@
   <testcase classname="calculatorTest" name="squarerootFalsepositive" time="0"/>
   <testcase classname="calculatorTest" name="divTruepositive" time="0"/>
   <testcase classname="calculatorTest" name="subTruepositive" time="0"/>
-  <testcase classname="calculatorTest" name="factFalsepositive" time="0.003"/>
+  <testcase classname="calculatorTest" name="factFalsepositive" time="0"/>
   <testcase classname="calculatorTest" name="addFalsepositive" time="0"/>
   <testcase classname="calculatorTest" name="logarithmFalsepositive" time="0"/>
-  <testcase classname="calculatorTest" name="squTruepositive" time="0.001"/>
-  <testcase classname="calculatorTest" name="powerFalsepositive" time="0"/>
+  <testcase classname="calculatorTest" name="squTruepositive" time="0"/>
+  <testcase classname="calculatorTest" name="powerFalsepositive" time="0.002"/>
   <testcase classname="calculatorTest" name="subFalsepositive" time="0"/>
   <testcase classname="calculatorTest" name="mulTruepositive" time="0.001"/>
-  <testcase classname="calculatorTest" name="powerTruepositive" time="0.001"/>
-  <testcase classname="calculatorTest" name="divFalsepositive" time="0"/>
+  <testcase classname="calculatorTest" name="powerTruepositive" time="0.003"/>
+  <testcase classname="calculatorTest" name="divFalsepositive" time="0.001"/>
   <testcase classname="calculatorTest" name="factTruepositive" time="0"/>
 </testsuite>
